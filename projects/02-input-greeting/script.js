@@ -14,7 +14,7 @@ greetBtn.addEventListener("click", function () {
   if (name == "") {
     output.textContent = "Enter your name please";
   } else {
-    output.textContent = "Hello there " + name;
+    output.textContent = `Hello there ${name}`;
   }
 
   // TODO 2: otherwise, show a greeting using a template string.
